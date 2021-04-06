@@ -2,7 +2,7 @@ Datensatzdokumentation
 # SARS-CoV-2 Infektionen in Deutschland
 
 
-[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI
+[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI 
 Nordufer 20  
 13353 Berlin  
 
@@ -21,7 +21,7 @@ MF 4 | Forschungsdatenmanagement
   
 Robert Koch-Institut (2021): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:https://doi.muss/hier_eingetragen_werden.  
 
-Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" steht unter der Creative Commons Lizenz Attribution 4.0 | CC-BY 4.0  
+Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)  
 
 ## Informationen zum Datensatz und Entstehungskontext
 ### Administrative und organisatorische Angaben
@@ -242,9 +242,9 @@ Die Dokumentation der einzelen Metadatenvariablen ist unter https://developers.z
 
 #### Lizenz
 
-Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" steht unter der Creative Commons Lizenz Attribution 4.0 | CC-BY 4.0  
+Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, dass jede_r das Recht hat, die daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellt und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der LICENSE Datei des Datensatzes.  
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, dass jede_r das Recht hat, die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellt und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der LICENSE/LIZENZ Datei des Datensatzes.  
 
 Die empfohlene Zitierweise ist:  
 
