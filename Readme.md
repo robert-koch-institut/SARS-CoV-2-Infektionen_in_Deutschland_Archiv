@@ -2,7 +2,7 @@ Datensatzdokumentation
 # SARS-CoV-2 Infektionen in Deutschland
 
 
-[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI 
+[Robert Koch-Institut](https://grid.ac/institutes/grid.13652.33) | RKI  
 Nordufer 20  
 13353 Berlin  
 
@@ -10,7 +10,7 @@ FG 32 | Surveillance
 [Michaela Diercke](https://orcid.org/0000-0002-4678-1813) (Leitung)  
 
 FG 31 | Infektionsepidemiologische Fach-IT und Anwendungsentwicklung  
-Herrmann Claus (Leitung)  
+[Herrmann Claus](https://orcid.org/0000-0002-0120-1846) (Leitung)  
 
 MF 4 | Forschungsdatenmanagement  
 [Linus Grabenhenrich](https://orcid.org/0000-0002-9300-6625) (Leitung)  
@@ -79,7 +79,7 @@ In der .csv Fallzahlentabelle differenzieren die Spalten die verschiedenen Merkm
 - Meldestatus (NeuerFall, NeuerTodesfall, NeuGenesen)  
 
 Eine Fallgruppe nimmt eine eineindeutige Ausprägung hinsichtlich ihrer Anzahl von Fällen ("AnzahlFall"), "Altersgruppe", "Geschlecht", ihres Landkreises ("IdLandkreis"), "Meldedatum"s, Erkrankungsdatums ("Refdatum") und der Informationen ob das Erkrankungsdatum bekannt ist "IstErkrankungsbeginn", an.  
-Weiterhin wird die "AnzahlTodesfall" oder "AnzahlGenesen" jeder Fallgruppe angegeben wobei nur eines der beiden Merkmale "AnzahlTodesfall" oder "AnzahlGenesen" angenommen werden kann. Das heißt, sofern es in einer Fallgruppe Todesfälle oder Genesene gibt, werden die Anzahl der Todesfälle oder die Anzahl der genesenen Fälle in einer neuen Gruppe angegeben. Treten z. B. beide Fälle in einer Fallgruppe auf, teilt sich die Fallgruppe in zwei weitere Gruppen auf, und zwar in eine Gruppe der Todesfälle und eine Gruppe der Genesenen.  
+Weiterhin wird die "AnzahlTodesfall" oder "AnzahlGenesen" jeder Fallgruppe angegeben, wobei nur eines der beiden Merkmale "AnzahlTodesfall" oder "AnzahlGenesen" angenommen werden kann. Das heißt, sofern es in einer Fallgruppe Todesfälle oder Genesene gibt, werden die Anzahl der Todesfälle oder die Anzahl der genesenen Fälle in einer neuen Gruppe angegeben. Treten z. B. beide Fälle in einer Fallgruppe auf, teilt sich die Fallgruppe in zwei weitere Gruppen auf, und zwar in eine Gruppe der Todesfälle und eine Gruppe der Genesenen.  
 
 ----
 
@@ -98,7 +98,7 @@ Sterben 1 und genesen 2 der Fälle so spaltet sich die Fallgruppe w in 3 Gruppen
 
 ----
 
-Die Merkmale des Meldestatus geben an, ob, bezogen auf den Vortag, in einer Fallgruppe Veränderungen bei den Infektionsfällen, Todesfällen und Genesenen entstanden sind. Das ermöglicht die Veränderungen zum Vortag nachzuvollziehen. Diese entstehen durch Neumeldungen von Infektionen (inklusive Nachmeldungen), Korrekturen (z. B. durch irrtümliche Meldungen) und Veränderung des Gesundheitszustands (genesen, verstorben). 
+Die Merkmale des Meldestatus geben an, ob, bezogen auf den Vortag, in einer Fallgruppe Veränderungen bei den Infektionsfällen, Todesfällen und Genesenen entstanden sind. Das ermöglicht die Veränderungen zum Vortag nachzuvollziehen. Diese entstehen durch Neumeldungen von Infektionen (inklusive Nachmeldungen), Korrekturen (z. B. durch irrtümliche Meldungen, aber auch Korrekturen bzgl. Landkreis, Alter, Geschlecht oder Erkrankungsbeginn) und Veränderung des Gesundheitszustands (genesen, verstorben). 
 Die Ausprägungen des Meldestatus spalten Fallgruppen temporär auf. Die Aufspaltung erfolgt temporär, da sie nur die Veränderungen vom Publikationstag zum Vortag abbilden. Neue Fälle bilden für den Tag der Neumeldung eine eigene Fallgruppe. Da ein Fall nur an einem Tag neu gemeldet, neu genesen oder neu verstorben oder korrigiert wird, folgt auf die temporäre Aufspaltung der Fallgruppe am Tag der Neumeldung des Meldestatus, eine Zusammenlegung der Gruppen am Folgetag. Eine genauere Erläuterung zu diesem Prozess wird im folgenden Abschnitt gegeben.  
 
 #### Merkmalsausprägungen
@@ -109,7 +109,7 @@ Die Fallzahlendaten enthalten die in der folgenden Tabelle abgebildeten Merkmale
 | Merkmal | Ausprägung | Erläuterung |
 | -------- | -------- | -------- |
 | IdLandkreis   | 1001 bis 16077    | Identifikationsnummer des Landkreises basierend auf dem Amtlichen Gemeindeschlüssel (AGS) zuzüglich der 12 Bezirke Berlins (11001 bis 11012); Gebietsstand: 30.06.2020 (2. Quartal) |
-|Geschlecht| W, M, D, unbekannt | Geschlecht der Fallgruppe: weiblich (W), männlich (M), divers (D) und (unbekannt)|
+|Geschlecht| W, M, unbekannt | Geschlecht der Fallgruppe: weiblich (W), männlich (M) und (unbekannt)|
 | Altersgruppe | A00-04, A05-14, A15-A34, A35-A59, A60-A79, A80+, unbekannt | Altersspanne der in der Gruppe enthaltenen Fälle, stratifiziert nach 0-4 Jahren, 5-14 Jahren, 15-34 Jahren, 35-59 Jahren, 60-79 Jahren, 80+ Jahren sowie unbekannt
 |Meldedatum | JJJJ-MM-TT | Datum, wann der Fall dem Gesundheitsamt bekannt geworden ist. JJJJ entspricht der Jahreszahl, MM dem Monat und TT dem Tag. 
 |Refdatum | JJJJ-MM-TT | Datum des Erkrankungsbeginns. Wenn das nicht bekannt ist, das Meldedatum.
@@ -117,7 +117,7 @@ Die Fallzahlendaten enthalten die in der folgenden Tabelle abgebildeten Merkmale
 |AnzahlFall | Natürliche Zahl | Anzahl der Fälle in der entsprechenden Fallgruppe <br> für NeuerFall = -1, ist die Anzahl als negativ zu interpretieren. Es handelt sich um eine Korrektur der Fallgruppe. Die AnzahlFall für NeuerFall = -1 gibt an, wie viele Infektionen zu viel gemeldet worden sind |
 |AnzahlTodesfall | Natürliche Zahl | Anzahl der Todesfälle in der entsprechenden Fallgruppe <br> für NeuerTodesfall = -1, ist die Anzahl als negativ zu interpretieren. Es handelt sich um eine Korrektur der Fallgruppe. Die AnzahlTodesfall für NeuerTodesfall = -1 gib an, wie viele Todesfälle zu viel gemeldet worden sind|
 |AnzahlGenesen | Natürliche Zahl | Anzahl der genesenen Fälle in der entsprechenden Fallgruppe <br> für NeuGenesen = -1, ist die Anzahl als negativ zu interpretieren. Es handelt sich um eine Korrektur der Fallgruppe. Die AnzahlGenesen für NeuGenesen = -1 gib an, wie viele genesene Fälle zu viel gemeldet worden sind|
-|NeuerFall, NeuerTodesfall, NeuGenesen | 0, 1, -1| 0 : Fälle der Gruppe sind in der Publikation für den aktuellen Tag und in der für den Vortag enthalten. Das bedeutet diese Fälle sind seit mehr als einem Tag bekannt. <br> 1 : Fälle der Gruppe sind erstmals in der aktuellen Publikation enthalten. Das heißt, es sind neu übermittelte Fälle.<br> -1: Fälle der Gruppe sind in der Publikation des Vortags enthalten, werden jedoch nach dem aktuellen Tag aus den Fallzahlendaten entfernt. Das heißt, es sind Fälle die ab dem aktuellen Tag wegfallen. Eine solche Fallgruppe kann beispielsweise durch fälschliche Meldungen entstehen, die so als Korrektur angezeigt werden. |
+|NeuerFall, NeuerTodesfall, NeuGenesen | 0, 1, -1| 0 : Fälle der Gruppe sind in der Publikation für den aktuellen Tag und in der für den Vortag enthalten. Das bedeutet diese Fälle sind seit mehr als einem Tag bekannt. <br> 1 : Fälle der Gruppe sind erstmals in der aktuellen Publikation enthalten. Das heißt, es sind für den Publikationstag neu übermittelte oder entsprechend neu bewertete Fälle.<br> -1: Fälle der Gruppe sind in der Publikation des Vortags enthalten, werden jedoch nach dem aktuellen Tag aus den Fallzahlendaten entfernt. Das heißt, es sind Fälle die ab dem aktuellen Tag wegfallen. Eine solche Fallgruppe kann beispielsweise durch fälschliche Meldungen entstehen, die so als Korrektur angezeigt werden. |
 | NeuerTodesfall, NeuGenesen | -9 | Fälle in der Gruppe sind weder in der Publikation für den aktuellen Tag, noch in der Publikation des Vortags, als genesen ("NeuGenesen") oder verstorben ("NeuerTodesfall") gemeldet. Das bedeutet, dass zu den Fällen in der Gruppe keine Information über den Gesundheitsverlauf der Infektion bekannt ist. Das ist zum Beispiel häufig der Fall, wenn eine Fallgruppe gerade erst als infiziert gemeldet worden ist. | 
 
 Die temporäre Aufspaltung der Fallgruppen durch die Merkmale des Meldestatus wird im folgenden Beispiel verdeutlicht. Temporäre Gruppen sind durch ein ' gekennzeichnet. Neumeldungen wird bei Betrachtung der Ausprägungen der Merkmale deutlich:
