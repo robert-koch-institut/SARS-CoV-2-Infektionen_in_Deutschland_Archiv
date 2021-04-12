@@ -228,7 +228,7 @@ In den Angaben der Einwohner_innenzahlen, mit Datenstand vom 31.12.2018, ist Kat
 
 ### Hinweise zur Nachnutzung der Daten
 
-Offene Forschungsdaten des RKI werden GitHub.com sowie Zenodo.org bereitgestellt: 
+Offene Forschungsdaten des RKI werden auf GitHub.com sowie Zenodo.org bereitgestellt: 
 * https://github.com/robert-koch-institut
 * https://zenodo.org/communities/robertkochinstitut  
 

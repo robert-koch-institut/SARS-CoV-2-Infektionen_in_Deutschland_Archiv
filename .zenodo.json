@@ -3,20 +3,17 @@
 	"description": "<p>Im Datensatz 'SARS-CoV-2 Infektionen in Deutschland' werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des Infektionsschutzgesetz - IfSG - von den Gesundheitsämtern in Deutschand gemeldeten positiven SARS-Cov-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.</p>", 
 	"upload_type": "dataset",
 	"access_right": "open",
-	"license": "cc-by", 
-	"upload_type": "dataset", 
+	"license": "cc-by",  
 	"language": "deu",
 	"communities": [
 	{
 		"identifier":"robertkochinstitut"
-	}
-	],
+	}],
 	"creators": [
         {    
-		"name": "Robert Koch-Institut, Fachgebiet 32",
+		"name": "Robert Koch-Institut",
 		"affiliation": "Robert Koch-Institut"
-        }
-	],  
+        }],  
 	"contributors": [
         {
 		"name": "Diercke, Michaela",
@@ -41,8 +38,7 @@
 		"affiliation": "Robert Koch-Institut",
 		"orcid": "0000-0002-8837-0326",
 		"type": "DataCurator"
-	}
-	],
+	}],
 	"keywords": [
 		"SARS-CoV-2",
 		"Germany",
