@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: README.md to [Dokumentation].PDF 
+name: Readme.md to [Dokumentation].PDF 
 
 # Controls when the action will run. 
 on:
@@ -9,7 +9,7 @@ on:
     branches: 
       - master
     paths:
-      - 'README.md'
+      - 'Readme.md'
      #- 'img/**'                #Uncomment if u use imgges in your Readme.md
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
@@ -31,9 +31,9 @@ jobs:
           #image_import: /img   #Uncomment if u use imgges in your Readme.md
           #images_dir: /img     #Uncomment if u use imgges in your Readme.md
           build_html: false
-      # Renames README.pdf to 'Dokumentation <reponame>.pdf'
-      - run: mv README.pdf "[Dokumentation] $(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | tr "_" " ").pdf"
+      # Renames Readme.pdf to 'Dokumentation <reponame>.pdf'
+      - run: mv Readme.pdf "[Dokumentation] $(echo "$GITHUB_REPOSITORY" | awk -F / '{print $2}' | tr "_" " ").pdf"
       # Commit and push
       - uses: EndBug/add-and-commit@v7.1.1
         with:
-          message: 'generated from README.md'
+          message: 'generated from Readme.md'
