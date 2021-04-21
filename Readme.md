@@ -55,7 +55,7 @@ Die Fallzahlendaten enthalten als einzige Geoinformation die Landkreis ID. Diese
 
 #### **Fallzahlendaten**
 
-> Aktuell_Deutschland_SARSCoV2_Infektionen.csv
+> Aktuell_Deutschland_SARSCoV2_Infektionen.csv  
 > JJJJ-MM-TT_Deutschland_SARSCoV2_Infektionen.csv  
 
 Zentrales Datum des Datensatzes sind die aktuellen Fallzahlendaten. Diese sind im Hauptverzeichnis unter "Aktuell_Deutschland_SARSCoV2_Infektionen.csv" abrufbar und werden täglich überschrieben. Im Archivordner sind die Fallzahlendaten unter den Dateinamen "JJJJ-MM-TT_Deutschland_SARSCoV2_Infektionen.csv" enthalten. Im Dateinamen repräsentiert die Sequenz "JJJJ-MM-TT" das Erstellungsdatum der Datei und damit gleichzeitig das Datum des enthaltenen Datenstands. "JJJJ" steht dabei für das Jahr, "MM" für den Monat und "TT" für den Tag der Erstellung bzw. des enthaltenen Datenstands. Die "Aktuell_Deutschland_SARSCoV2_Infektionen.csv" ist identisch mit dem neusten Datenstands des Archivs.  
