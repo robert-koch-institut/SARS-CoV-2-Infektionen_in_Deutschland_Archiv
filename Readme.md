@@ -14,7 +14,7 @@ FG 31 | Infektionsepidemiologische Fach-IT und Anwendungsentwicklung
 
 MF 4 | Forschungsdatenmanagement  
 [Linus Grabenhenrich](https://orcid.org/0000-0002-9300-6625) (Leitung)  
-[Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkurration)  
+[Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)  
  
 
 ---
@@ -26,7 +26,7 @@ Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [
 ## Informationen zum Datensatz und Entstehungskontext
 ### Administrative und organisatorische Angaben
 
-Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des [Infektionsschutzgesetz - IfSG](https://www.gesetze-im-internet.de/ifsg/index.html) von den Gesundheitsämtern in Deutschland gemeldeten positiven SARS-CoV-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.  
+Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des [Infektionsschutzgesetzes - IfSG -](https://www.gesetze-im-internet.de/ifsg/index.html) von den Gesundheitsämtern in Deutschland gemeldeten positiven SARS-CoV-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.  
  
 Die zugrundeliegenden Daten werden an das Robert Koch-Institut (RKI) über das Meldesystem gemäß IfSG übermittelt. Zuständig für den Betrieb des Meldesystems ist das [Fachgebiet 32 | Surveillance](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) des RKI.  
 Die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten erfolgt durch das [Fachgebiet 31 | Infektionsepidemiologische Fach-IT und Anwendungsentwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG31/FG31_node.html) des RKI.  
