@@ -36,4 +36,4 @@ jobs:
       # Commit and push
       - uses: EndBug/add-and-commit@v7.1.1
         with:
-          message: 'generated from Readme.md'
+          message: 'Documentation generated from Readme.md'
