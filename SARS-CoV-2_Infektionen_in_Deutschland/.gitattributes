@@ -1,0 +1,2 @@
+*Deutschland_SarsCov2_Infektionen.csv filter=lfs diff=lfs merge=lfs -text
+*_Deutschland_SarsCov2_Infektionen.csv filter=lfs diff=lfs merge=lfs -text
