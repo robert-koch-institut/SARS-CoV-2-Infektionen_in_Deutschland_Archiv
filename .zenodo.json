@@ -1,67 +1,73 @@
 {
-	"title": "SARS-CoV-2 Infektionen in Deutschland", 
-	"description": "<p>Im Datensatz 'SARS-CoV-2 Infektionen in Deutschland' werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des Infektionsschutzgesetzes - IfSG - von den Gesundheitsämtern in Deutschand gemeldeten positiven SARS-Cov-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.</p>", 
-	"upload_type": "dataset",
-	"access_right": "open",
-	"license": "cc-by",  
-	"language": "deu",
-	"communities": [
-	{
-		"identifier":"robertkochinstitut"
-	}],
-	"creators": [
-        {    
-		"name": "Robert Koch-Institut",
-		"affiliation": "Robert Koch-Institut"
-        }],  
-	"contributors": [
-        {
-		"name": "Diercke, Michaela",
-		"affiliation": "Robert Koch-Institut",
-		"orcid": "0000-0002-4678-1813",
-		"type": "ProjectManager"
-        },
-	{
-		"name": "Claus, Hermann",
-		"affiliation": "Robert Koch-Institut",
-		"orcid": "0000-0002-0120-1846",
-		"type": "ProjectManager"
-	},
-	{
-		"name": "Grabenhenrich, Linus",
-		"affiliation": "Robert Koch-Institut",
-		"orcid": "0000-0002-9300-6625",
-		"type": "ProjectManager"
-	},
-	{
-		"name": "Wuensche, Hannes",
-		"affiliation": "Robert Koch-Institut",
-		"orcid": "0000-0002-8837-0326",
-		"type": "DataCurator"
-	}],
-	"keywords": [
-		"COVID-19",
-		"SARS-CoV-2",
-		"Infektion",
-		"Deutschland",
-		"Infections",
-		"Germany",
-		"RKI"
-	],
-		"subjects": [
-	{
-		"term": "Gesundheitsberichterstattung", 
-		"identifier": "info:ddc/22/de//614.42"
-	},
-	{
-		"term": "Epidemiologie", 
-		"identifier": "info:ddc/22/de//614.4"
-	},	{
-		"term": "Public health surveillance", 
-		"identifier": "info:ddc/22/eng//614.42"
-	},
-	{
-		"term": "Epidemiology", 
-		"identifier": "info:ddc/22/eng//614.4"
-	}]
+  "title": "SARS-CoV-2 Infektionen in Deutschland",
+  "description": "<p>Im Datensatz 'SARS-CoV-2 Infektionen in Deutschland' werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des Infektionsschutzgesetzes - IfSG - von den Gesundheitsämtern in Deutschand gemeldeten positiven SARS-Cov-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.</p>",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "cc-by",
+  "language": "deu",
+  "communities": [
+    {
+      "identifier": "robertkochinstitut"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Robert Koch-Institut",
+      "affiliation": "Robert Koch-Institut"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Diercke, Michaela",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-4678-1813",
+      "type": "ProjectManager"
+    },
+    {
+      "name": "Claus, Hermann",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-0120-1846",
+      "type": "ProjectManager"
+    },
+    {
+      "name": "Grabenhenrich, Linus",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-9300-6625",
+      "type": "ProjectManager"
+    },
+    {
+      "name": "Wuensche, Hannes",
+      "affiliation": "Robert Koch-Institut",
+      "orcid": "0000-0002-8837-0326",
+      "type": "DataCurator"
+    }
+  ],
+  "keywords": [
+    "COVID-19",
+    "SARS-CoV-2",
+    "Infektion",
+    "Deutschland",
+    "Infections",
+    "Germany",
+    "RKI"
+  ],
+  "subjects": [
+    {
+      "term": "Gesundheitsberichterstattung",
+      "identifier": "info:ddc/22/de//614.42"
+    },
+    {
+      "term": "Epidemiologie",
+      "identifier": "info:ddc/22/de//614.4"
+    },
+    {
+      "term": "Public health surveillance",
+      "identifier": "info:ddc/22/eng//614.42"
+    },
+    {
+      "term": "Epidemiology",
+      "identifier": "info:ddc/22/eng//614.4"
+    }
+  ],
+  "publication_date": "2021-07-15T03:23:36+02:00"
 }
