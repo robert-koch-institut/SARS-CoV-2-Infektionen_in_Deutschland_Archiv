@@ -181,51 +181,7 @@ Tag TT+4
 ----
 Hinweis zu Genesenen
 
-Anhand der dem RKI von den Gesundheitsämtern übermittelten Detailinformationen zu einem Erkrankungsfall wird für jeden Fall eine Dauer der Erkrankung geschätzt. Für Fälle, bei denen nur Symptome angegeben sind, die auf einen leichten Erkrankungsverlauf schließen lassen, wird eine Dauer der Erkrankung von 14 Tagen angenommen. Bei hospitalisierten Fällen oder Fällen mit Symptomen, die auf einen schweren Verlauf hindeuten (z. B. Pneumonie) wird eine Dauer der Erkrankung von 28 Tagen angenommen. Ausgehend vom Beginn der Erkrankung, bzw. wenn dieser nicht bekannt ist, vom Meldedatum ergibt sich ein geschätztes Datum der Genesung für jeden Fall. Da im Einzelfall auch deutlich längere Erkrankungsverläufe möglich sind, bzw. die hier genutzten Informationen nicht bei allen Fällen dem RKI übermittelt werden, sind die so berechneten Daten nur grobe Schätzungen für die Anzahl der Genesenen und sollten daher auch nur unter Berücksichtigung dieser Limitationen verwendet werden.
-
-#### **Geodaten**
-> 2020-06-30_Deutschland_Landkreise_GeoDemo.csv
-
-Die bereitgestellten Geo- und Zensusdaten (im Folgenden nur als Geodaten bezeichnet) ermöglichen die Verbindung der Fallzahlen mit den geographischen und demografischen Angaben der Landkreise. Die Verbindung beider Daten ist über die Landkreis ID ("IdLandkreis") möglich. Diese ist in den Fallzahlen und Geodaten konsistent enthalten. Primärquelle der Geodaten ist das [Gemeindeverzeichnis aller politisch selbständigen Gemeinden mit ausgewählten Merkmalen des Statistischen Bundesamtes Gebietsstand: 30.06.2020 (2. Quartal)](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/). Die darin enthaltenen geographischen Angaben befinden sich auf dem Zuordnungsstand vom 31.12.2019. Die demographischen Angaben befinden sich auf dem Zuordnungsstand vom 31.12.2018. 
-Für die genauerer Darstellung Berlins ist der Landkreis Berlin (Landkreis ID 11000) auf Bezirksebene aufgeschlüsselt. Die Zuordnung der Bezirke zur den entsprechenden Landkreis IDs erfolgt nach dem [Schema des Amt für Statistik Berlin-Brandenburg](https://www.statistik-berlin-brandenburg.de/regionalstatistiken/r-gesamt_neu.asp?Ptyp=410&Sageb=33000&creg=BBB&anzwer=9). Die letzten zwei Stellen der Landkreis ID bilden die Bezirksnummern der Berliner Bezirke ab. Im Bereich von 11001 bis 11012 entspricht z.B. Landkreis ID 11001 dem Bezirk Berlin Mitte, 11012 dem Bezirk Berlin Reinickendorf.  
-Die Zuordnung der Flächenanteile der Bezirke erfolgt nach [Gebietsstand 2019 des Amts für Statistik Berlin-Brandenburg](https://www.statistik-berlin-brandenburg.de/regionalstatistiken/r-gesamt_neu.asp?Ptyp=410&Sageb=33000&creg=BBB&anzwer=9). Zum Bevölkerungsstand der Berliner Bezirken sind keine Daten verfügbar. In den Geodaten sind daher die Daten des [Einwohnerregisters](https://www.statistik-berlin-brandenburg.de/grundlagen/Einwohnerregister.asp?Ptyp=50&Sageb=12041&creg=BBB&anzwer=10) mit Gebietstand vom 31.12.2019 angegeben.				
-
-
-#### Formatierung der Geodaten 
-
-Die Geodaten sind im Datensatz als kommaseparierte .csv Datei enthalten. Der verwendete Zeichensatz der .csv Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Komma ",". 
-* Zeichensatz: UTF-8  
-* .csv Trennzeichen: Komma ","  
-
-#### Merkmale der Geodaten
-
-In der .csv Geodatentabelle differenzieren die Spalten die verschiedenen Merkmale eines Landkreises. Pro Zeile ist ein Landkreis eineindeutig abgebildet. Ein Landkreis wird durch folgende Eigenschaften beschrieben (in den Klammern finden sich die Merkmale dieser Eigenschaften):  
-
-- Landkreis ID auf Basis des amtlichen Gemeindeschlüssels AGS, 
-zuzüglich der 12 Bezirke Berlin (IdLandkreis)
-- Landkreisname (Landkreis)  
-- Fläche des Landkreises in km<sup>2</sup> (Flaeche)  
-- Einwohner_innenzahl (EW_gesamt, EW_weiblich, EW_maennlich)  
-
-#### Merkmalsausprägungen der Geodaten
-
-Die Geodaten enthalten die in der folgenden Tabelle abgebildeten Merkmale und deren Ausprägungen:  
-
-
-| Merkmal | Ausprägung | Erläuterung |
-| -------- | -------- | -------- |
-| IdLandkreis   | 1001 bis 16077    | Identifikationsnummer des Landkreises basierend auf dem Amtlichen Gemeindeschlüssel (AGS); Gebietsstand: 30.06.2020 (2. Quartal) 
-|Landkreis | Name  (Zusatz) | Name des Landkreises, gegeben falls mit erläuterndem Zusatz z. B. "Landeshaupstadt","Hansestadt", etc. |
-| Flaeche | Zahl | Fläche des Landkreises in km<sup>2</sup> auf 2 Nachkommastellen gerundet.| 
-|EW_gesamt | Zahl | Gesamtanzahl der Einwohner_innen des Landkreises. Datenstand vom 31.12.2019 | 
-|EW_weiblich | Zahl | Gesamtanzahl der weiblichen Einwohner_innen des Landkreises. Datenstand vom 31.12.2019 |
-|EW_maennlich | Zahl | Gesamtanzahl der männlichen Einwohner_innen des Landkreises. Datenstand vom 31.12.2019 |
-
-Hinweis zur Angabe der Einwohner_innenzahlen  
-
-Das "Gesetz zur Änderung der in das Geburtenregister einzutragenden Angaben" ist zum 22. Dezember 2018 in Kraft getreten. Mit dem Gesetz wird das Personenstandsgesetz (PStG) angepasst und ermöglicht Menschen die Möglichkeit, im Geburtenregister neben den Angaben "männlich", "weiblich" die weitere Bezeichnung "divers" zu wählen.  
-In den Angaben der Einwohner_innenzahlen, mit Datenstand vom 31.12.2018, ist Kategorie "divers", des Geschlechtseintrags, noch nicht abgebildet. 
-
+Anhand der dem RKI von den Gesundheitsämtern übermittelten Detailinformationen zu einem Erkrankungsfall wird für jeden Fall eine Dauer der Erkrankung geschätzt. Für Fälle, bei denen nur Symptome angegeben sind, die auf einen leichten Erkrankungsverlauf schließen lassen, wird eine Dauer der Erkrankung von 14 Tagen angenommen. Bei hospitalisierten Fällen oder Fällen mit Symptomen, die auf einen schweren Verlauf hindeuten (z. B. Pneumonie) wird eine Dauer der Erkrankung von 28 Tagen angenommen. Ausgehend vom Beginn der Erkrankung, bzw. wenn dieser nicht bekannt ist, vom Meldedatum ergibt sich ein geschätztes Datum der Genesung für jeden Fall. Da im Einzelfall auch deutlich längere Erkrankungsverläufe möglich sind, bzw. die hier genutzten Informationen nicht bei allen Fällen dem RKI übermittelt werden, sind die so berechneten Daten nur grobe Schätzungen für die Anzahl der Genesenen und sollten daher auch nur unter Berücksichtigung dieser Limitationen verwendet werden. 
 
 ### Hinweise zur Nachnutzung der Daten
 
