@@ -38,7 +38,6 @@ Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagemen
 Der Datensatz enthält epidemiologische Daten über den Verlauf der SARS-CoV-2 Infektionen in Deutschland. Im Datensatz enthalten sind:  
 
 - Fallzahlendaten mit tagesaktuellen Meldungen von SARS-CoV-2 Infektionen  
-- Geodaten mit Geo- und Zensusinformationen der erhobenen Landkreise  
 - Archiv mit der Sammlung aller bisherigen Fallzahlentabellen  
 - Lizenz Datei mit der Nutzungslizenz des Datensatzes  
 - Datensatzdokumentation in deutscher Sprache  
@@ -51,7 +50,7 @@ Der Datensatz enthält epidemiologische Daten über den Verlauf der SARS-CoV-2 I
 
 Die Fallzahlendaten bilden einen tagesaktuellen Stand (00:00 Uhr) aller bisherig gemeldeten Infektionsfälle in Deutschland ab. Das bedeutet, dass alle, bis 00:00 Uhr des Tages JJJJ-MM-TT, von den Gesundheitsämtern, über die zuständigen Landesbehörden, an das Meldesystem des RKIs übermittelten SARS-CoV-2 Infektionen im Datenstand enthalten sind. Die Daten werden täglich vollständig neu erzeugt und dieser Datenstand ersetzt den Datenstand des Vortages.  
   
-Die Fallzahlendaten enthalten als einzige Geoinformation die Landkreis ID. Diese richtet sich nach dem Amtlichen Gemeindeschlüssel (AGS) des Quartal 2 2020, abgerufen im [Portal des Statistischen Bundesamtes](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV2QAktuell.html). Für eine genauere Darstellung des Landkreises Berlin, werden die 12 Stadtbezirke als eigene "Landkreise" aufgegliedert. Hier wird von den Vorgaben des AGS abgewichen. Für die weitere Verknüpfung mit zugehörigen Geo- und Zensusinformationen werden weitere Geodaten bereitgestellt (siehe Abs. Geodaten).
+Die Fallzahlendaten enthalten als einzige Geoinformation die Landkreis ID. Diese richtet sich nach dem Amtlichen Gemeindeschlüssel (AGS) des Quartal 2 2020, abgerufen im [Portal des Statistischen Bundesamtes](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV2QAktuell.html). Für eine genauere Darstellung des Landkreises Berlin, werden die 12 Stadtbezirke als eigene "Landkreise" aufgegliedert. Hier wird von den Vorgaben des AGS abgewichen.
 
 #### **Fallzahlendaten**
 
