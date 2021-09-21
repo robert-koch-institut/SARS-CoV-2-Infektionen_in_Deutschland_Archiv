@@ -30,7 +30,7 @@ Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" werden die tagesaktuellen F
  
 Die zugrundeliegenden Daten werden an das Robert Koch-Institut (RKI) über das Meldesystem gemäß IfSG übermittelt. Zuständig für den Betrieb des Meldesystems ist das [Fachgebiet 32 | Surveillance](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) des RKI.  
 Die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten erfolgt durch das [Fachgebiet 31 | Infektionsepidemiologische Fach-IT und Anwendungsentwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG31/FG31_node.html) des RKI.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Die Datensatzkuration und Betreuung Publikationsinfrastruktur erfolgt durch Hannes Wuensche. Fragen zum Datenmanagement können an das Fachgebiet MF4 gerichtet werden ([MF4@rki.de](mailto:MF4@rki.de)).  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
 
 
 ### Inhalt und Aufbau des Datensatzes
@@ -43,14 +43,22 @@ Der Datensatz enthält epidemiologische Daten über den Verlauf der SARS-CoV-2 I
 - Datensatzdokumentation in deutscher Sprache  
 - Metadaten Datei zum Import in Zenodo  
 
-
-## Aufbereitung der Daten
-
-### Daten und Datenaufbereitung
+## Aufbereitung der Daten  
+### Daten und Datenaufbereitung  
 
 Die Fallzahlendaten bilden einen tagesaktuellen Stand (00:00 Uhr) aller bisherig gemeldeten Infektionsfälle in Deutschland ab. Das bedeutet, dass alle, bis 00:00 Uhr des Tages JJJJ-MM-TT, von den Gesundheitsämtern, über die zuständigen Landesbehörden, an das Meldesystem des RKIs übermittelten SARS-CoV-2 Infektionen im Datenstand enthalten sind. Die Daten werden täglich vollständig neu erzeugt und dieser Datenstand ersetzt den Datenstand des Vortages.  
   
-Die Fallzahlendaten enthalten als einzige Geoinformation die Landkreis ID. Diese richtet sich nach dem Amtlichen Gemeindeschlüssel (AGS) des Quartal 2 2020, abgerufen im [Portal des Statistischen Bundesamtes](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV2QAktuell.html). Für eine genauere Darstellung des Landkreises Berlin, werden die 12 Stadtbezirke als eigene "Landkreise" aufgegliedert. Hier wird von den Vorgaben des AGS abgewichen.
+Die Fallzahlendaten enthalten als einzige Geoinformation die Landkreis ID. Diese richtet sich nach dem Amtlichen Gemeindeschlüssel (AGS) des Quartal 2 2020, abgerufen im [Portal des Statistischen Bundesamtes](https://www.destatis.de/DE/Themen/Laender-Regionen/Regionales/Gemeindeverzeichnis/Administrativ/Archiv/GVAuszugQ/AuszugGV2QAktuell.html). Die Landkei ID ergibt sich aus der Kennzahl des Bundeslandes (Land), des  Regionalbezirks (RB) und des Landkeises (LK). 
+Für eine genauere Darstellung Berlins, werden die 12 Stadtbezirke als eigene "Landkreise" aufgegliedert. Hier wird von den Vorgaben des AGS abgewichen. Folgende Zuordnung wird getroffen:  
+
+| IdLandkreis | Bezirk | IdLandkreis | Bezirk |  
+| ----------- | ------ | ----------- | ------ |  
+|11001 | Berlin Mitte | 11007 | Berlin Tempelhof-Schöneberg |  
+|11002 | Berlin Friedrichshain-Kreuzberg | 11008 | Berlin Neukölln |  
+|11003 | Berlin Pankow | 11009 | Berlin Treptow-Köpenick |  
+|11004 | Berlin Charlottenburg-Wilmersdorf| 11010 | Berlin Marzahn-Hellersdorf |  
+|11005 | Berlin Spandau | 11011 | Berlin Lichtenberg |  
+|11006 | Berlin Steglitz-Zehlendorf | 11012 | Berlin Reinickendorf|  
 
 #### **Fallzahlendaten**
 
@@ -184,23 +192,24 @@ Anhand der dem RKI von den Gesundheitsämtern übermittelten Detailinformationen
 
 ### Hinweise zur Nachnutzung der Daten
 
-Offene Forschungsdaten des RKI werden auf GitHub.com sowie Zenodo.org bereitgestellt: 
+Offene Forschungsdaten des RKI werden auf Edoc, GitHub.com sowie Zenodo.org bereitgestellt: 
 * https://github.com/robert-koch-institut
 * https://zenodo.org/communities/robertkochinstitut  
+* https://edoc.rki.de
 
 #### Metadaten
 
 Die bereitgestellten Daten sind mit Metadaten beschreiben und wissenschaftlich zitierbar, u.a. durch die Vergabe einer DOI durch Zenodo.org. Die für den Import in Zenodo bereitgestellten Metadaten sind in folgender Datei hinterlegt:  
 
-> .zenodo.json 
+> [.zenodo.json](/.zenodo.json)  
 
 Die Dokumentation der einzelen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
 
 #### Lizenz
 
-Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de)
+Der Datensatz "SARS-CoV-2 Infektionen in Deutschland" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License |](https://creativecommons.org/licenses/by/4.0/deed.de) <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.de">CC-BY 4.0 International</a>.  
 
-Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede_r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellt und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der LICENSE/LIZENZ Datei des Datensatzes.  
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede:r hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](/LICENSE) bzw. [LIZENZ](/LIZENZ) Datei des Datensatzes.  
 
 Die empfohlene Zitierweise ist:  
 
