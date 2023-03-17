@@ -193,7 +193,7 @@ Die Notaufnahmesurveillance-Daten sind im Datensatz als kommaseparierte .csv-Dat
 - Zeichensatz: UTF-8  
 - Datumsformat: ISO 8601  
 - .csv-Trennzeichen: Komma "," 
-- komprimiert im .zip Format 
+- komprimiert im `.xz` Format 
 
 
 ### Metadaten  
