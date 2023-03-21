@@ -11,12 +11,12 @@ FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | 
 MFI | Methodenentwicklung, Forschungsinfrastruktur und Informationstechnologie   
 [Linus Grabenhenrich](https://orcid.org/0000-0002-9300-6625) (Leitung)
 
-IT 4 | Development   
+IT 4 | Softwarearchitektur und -entwicklung   
 [Herrmann Claus](https://orcid.org/0000-0002-0120-1846) (Leitung)  
 
 MF 4 | Informations- und Forschungsdatenmanagement    
-[Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration)  
- 
+[Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration) 
+
 
 ---
  
@@ -24,17 +24,17 @@ MF 4 | Informations- und Forschungsdatenmanagement
 Robert Koch-Institut (2023): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153).  
 
 
-## Informationen zum Datensatz und Entstehungskontext
+## Informationen zum Datensatz und Entstehungskontext  
 
-Das vorliegende Datansatz enthält umfassende Informationen zu SARS-CoV-2-Infektionen in Deutschland, die gemäß dem Infektionsschutzgesetze (IfSG) von den Gesundheitsämtern an das Robert Koch-Institut (RKI) gemeldet wurden. Die Daten umfassen Informationen zur Anzahl der bestätigten Fälle, Todesfälle und Genesungen, aus denen sich weitere Kennzahlen im Zusammenhang mit der COVID-19-Pandemie ableiten lassen. Der Datensatz wird täglich aktualisiert und enthält detaillierte Informationen auf Landkreisebene, die nach verschiedenen Altersgruppen aufgeschlüsselt sind. Die Bereitstellung des Datensatzes soll dazu beitragen, das Verständnis der COVID-19-Pandemie in Deutschland zu verbessern und die Berichterstattung, Forschung und Analyse in diesem Bereich zu unterstützen.
+Der vorliegende Datansatz enthält umfassende Informationen zu SARS-CoV-2-Infektionen in Deutschland, die gemäß dem Infektionsschutzgesetze (IfSG) von den Gesundheitsämtern an das Robert Koch-Institut (RKI) gemeldet wurden. Die Daten umfassen Informationen zur Anzahl der bestätigten Fälle, Todesfälle und Genesungen, aus denen sich weitere Kennzahlen im Zusammenhang mit der COVID-19-Pandemie ableiten lassen. Der Datensatz wird täglich aktualisiert und enthält detaillierte Informationen auf Landkreisebene, die nach verschiedenen Altersgruppen aufgeschlüsselt sind. Die Bereitstellung des Datensatzes soll dazu beitragen, das Verständnis der COVID-19-Pandemie in Deutschland zu verbessern und die Berichterstattung, Forschung und Analyse in diesem Bereich zu unterstützen.
 
 ### Administrative und organisatorische Angaben
 
 Im Datensatz "SARS-CoV-2 Infektionen in Deutschland" werden die tagesaktuellen Fallzahlen, der nach den Vorgaben des [Infektionsschutzgesetzes - IfSG -](https://www.gesetze-im-internet.de/ifsg/index.html) von den Gesundheitsämtern in Deutschland gemeldeten positiven SARS-CoV-2 Infektionen, Todes- und Genesungsfälle bereitgestellt.  
  
-Die zugrundeliegenden Daten werden an das Robert Koch-Institut (RKI) über das Meldesystem gemäß IfSG übermittelt. Zuständig für den Betrieb des Meldesystems ist das [Fachgebiet 32 | Surveillance](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) des RKI.  
-Die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten erfolgt durch das [Fachgebiet 31 | Infektionsepidemiologische Fach-IT und Anwendungsentwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG31/FG31_node.html) des RKI.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
+Die zugrundeliegenden Daten werden an das Robert Koch-Institut (RKI) über das Meldesystem gemäß IfSG übermittelt. Zuständig für den Betrieb des Meldesystems ist das [Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html) des RKI.  
+Die Verarbeitung und Aufbereitung der im Meldesystem vorliegenden Rohdaten erfolgt durch das [IT 4 | Softwarearchitektur und -entwicklung](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/IT4/it4_node.html) des RKI.  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgen durch das Fachgebiet [MF 4 | Informations- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement und zur Publikationsinfrastruktur können an das Open Data Team des Fachgebiets MF4 unter [OpenData@rki.de](mailto:OpenData@rki.de) gerichtet werden.  
 
 
 ### Inhalt und Aufbau des Datensatzes
