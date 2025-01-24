@@ -1,27 +1,26 @@
 Datensatzdokumentation  
-# SARS-CoV-2 Infektionen in Deutschland
+# SARS-CoV-2 Infektionen in Deutschland Archiv
 
 [Robert Koch-Institut | RKI](http://www.rki.de)  
 Nordufer 20  
 13353 Berlin  
 
-FG 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD Kontaktstelle   
-[Michaela Diercke](https://orcid.org/0000-0002-4678-1813) (Leitung) 
+<br>
 
-MFI | Methodenentwicklung, Forschungsinfrastruktur und Informationstechnologie   
-[Linus Grabenhenrich](https://orcid.org/0000-0002-9300-6625) (Leitung)
+**Beitragende**  
+[Michaela Diercke](https://orcid.org/0000-0002-4678-1813)&sup1; (Leitung), [Linus Grabenhenrich](https://orcid.org/0000-0002-9300-6625)&sup2; (Leitung), [Herrmann Claus](https://orcid.org/0000-0002-0120-1846)&sup1; (Leitung) und [Hannes Wuensche](https://orcid.org/0000-0002-8837-0326)&sup3; (Datenkuration) 
 
-IT 4 | Softwarearchitektur und -entwicklung   
-[Herrmann Claus](https://orcid.org/0000-0002-0120-1846) (Leitung)  
-
-MF 4 | Informations- und Forschungsdatenmanagement    
-[Hannes Wuensche](https://orcid.org/0000-0002-8837-0326) (Datenkuration) 
+&emsp;&emsp;&sup1; Robert Koch-Institut | [Fachgebiet 32](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/FG32_node.html)  
+&emsp;&emsp;&sup2; Robert Koch-Institut | [Abteilung MFI](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/mfi_node.html)  
+&emsp;&emsp;&sup3; Robert Koch-Institut | [Fachgebiet MF 4](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MFI/MF4/mf4_node.html)   
 
 
 ---
- 
+
 **Zitieren**  
-Robert Koch-Institut (2023): SARS-CoV-2 Infektionen in Deutschland, Berlin: Zenodo. DOI:[10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153).  
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Robert Koch-Institut. (2025). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153).  
+<!-- CITATION_END --> 
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
