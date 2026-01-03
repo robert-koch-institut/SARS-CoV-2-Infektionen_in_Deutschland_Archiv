@@ -3,7 +3,7 @@
 >
 >An dieser Stelle befindet sich das Archiv aller veröffentlichten Datensätze zu den SARS-CoV-2 Infektionen in Deutschland. Ausführlichere Informationen zum Datensatz sind im Repository des aktuellen Datensatzes zu den SARS-CoV-2 Infektionen in Deutschland verfügbar:  
 >
-> Robert Koch-Institut. (2025). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153). 
+> Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153). 
 
 ---------
 
@@ -26,7 +26,7 @@ Nordufer 20
 ---
 
 **Zitieren**  
-Robert Koch-Institut. (2025). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153).  
+Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153).  
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
