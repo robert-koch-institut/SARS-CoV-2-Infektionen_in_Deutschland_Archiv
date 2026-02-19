@@ -8,6 +8,7 @@
 ---------
 
 Datensatzdokumentation  
+
 # SARS-CoV-2 Infektionen in Deutschland Archiv
 
 [Robert Koch-Institut | RKI](http://www.rki.de)  
@@ -26,7 +27,9 @@ Nordufer 20
 ---
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->  
 Robert Koch-Institut. (2026). SARS-CoV-2 Infektionen in Deutschland [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.4681153](https://doi.org/10.5281/zenodo.4681153).  
+<!-- CITATION_END -->
 
 
 ## Informationen zum Datensatz und Entstehungskontext  
