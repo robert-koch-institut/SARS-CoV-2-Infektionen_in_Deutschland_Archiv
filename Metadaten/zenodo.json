@@ -1,6 +1,6 @@
 {
   "title": "SARS-CoV-2 Infektionen in Deutschland Archiv",
-  "description": "<p>Der vorliegende Datansatz enthält das Archiv  der umfassende Informationen zu SARS-CoV-2-Infektionen in Deutschland, die gemäß dem Infektionsschutzgesetze (IfSG) von den Gesundheitsämtern an das Robert Koch-Institut (RKI) gemeldet wurden. Die Daten umfassen Informationen zur Anzahl der bestätigten Fälle, Todesfälle und Genesungen.</p>",
+  "description": "<p>Die im Archiv vorliegenden Datensätze enthalten umfassende Informationen zu SARS-CoV-2-Infektionen in Deutschland, die gemäß Infektionsschutzgesetz (IfSG) von den Gesundheitsämtern an das Robert Koch-Institut (RKI) übermittelt wurden. Die Daten umfassen Informationen zur Anzahl der bestätigten Fälle, Todesfälle und Genesungen.</p>",
   "upload_type": "dataset",
   "access_right": "open",
   "license": "CC-BY-4.0",
@@ -59,8 +59,8 @@
     "Epidemiology"
   ],
   "subjects": [],
-  "publication_date": "2026-04-30",
-  "version": "2026-04-30",
+  "publication_date": "2026-05-01",
+  "version": "2026-05-01",
   "related_identifiers": [
     {
       "identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv",
@@ -75,8 +75,8 @@
   ],
   "dates": [
     {
-      "start": "2026-04-30T07:35:14+02:00",
-      "end": "2026-04-30T07:35:14+02:00",
+      "start": "2026-05-01T07:35:59+02:00",
+      "end": "2026-05-01T07:35:59+02:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }
