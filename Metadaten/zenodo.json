@@ -59,8 +59,8 @@
     "Epidemiology"
   ],
   "subjects": [],
-  "publication_date": "2026-08-08",
-  "version": "2026-08-08",
+  "publication_date": "2026-08-09",
+  "version": "2026-08-09",
   "related_identifiers": [
     {
       "identifier": "https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv",
@@ -75,8 +75,8 @@
   ],
   "dates": [
     {
-      "start": "2026-08-08T07:35:57+02:00",
-      "end": "2026-08-08T07:35:57+02:00",
+      "start": "2026-08-09T07:36:56+02:00",
+      "end": "2026-08-09T07:36:56+02:00",
       "type": "Created",
       "description": "Date when the published data was created"
     }
